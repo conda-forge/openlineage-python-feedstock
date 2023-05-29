@@ -24,7 +24,7 @@ requirements:
     - attrs >=23.1
     - python-dateutil >=2.8.2
     - pyyaml >=6
-    - requests >=2.30
+    - requests >=2.24.0
 
 test:
   imports:
