@@ -16,15 +16,15 @@ build:
 
 requirements:
   host:
-    - python >=3.7
-    - hatchling >=1.15
+    - python >=3.8
+    - hatchling >=1.17
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - attrs >=23.1
     - python-dateutil >=2.8.2
-    - pyyaml >=6
-    - requests >=2.24.0
+    - pyyaml >=5.4
+    - requests >=2.31.0
 
 test:
   imports:
