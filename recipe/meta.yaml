@@ -1,5 +1,5 @@
 {% set name = "openlineage-python" %}
-{% set version = "1.11.3" %}
+{% set version = "1.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openlineage_python-{{ version }}.tar.gz
-  sha256: 0e2203a688cc30e3f3b93a89ef258ce34249e3af108072185bddaad898a9d886
+  sha256: d83ae3b5aca528be817be35143fdad873a71e4b11dbd3c5894e28215851d417e
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
