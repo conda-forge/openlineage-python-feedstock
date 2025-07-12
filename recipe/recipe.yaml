@@ -46,6 +46,10 @@ tests:
   - requirements:
       run:
         - pip
+        - python ${{ python_min }}.*
+        - ruff
+        - click
+        - datamodel-code-generator ==0.25.4
     script:
       - ol-generate-code --help
 
