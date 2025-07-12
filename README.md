@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openlineage-pyt
 
 Home: https://github.com/OpenLineage/OpenLineage
 
-Package license: Apache-2.0
+Package license: Unlicense
 
 Summary: OpenLineage Python Client
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@millsks](https://github.com/millsks/)
 * [@rxm7706](https://github.com/rxm7706/)
 
