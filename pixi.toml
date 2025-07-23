@@ -7,7 +7,7 @@
 
 [project]
 name = "openlineage-python-feedstock"
-version = "3.51.0"  # conda-smithy version used to generate this file
+version = "3.51.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/openlineage-python-feedstock"
 authors = ["@conda-forge/openlineage-python"]
 channels = ["conda-forge"]
