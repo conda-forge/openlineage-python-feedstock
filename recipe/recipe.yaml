@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: openlineage-python
-  version: "1.36.0"
+  version: "1.37.0"
   python_min: '3.10'
 
 package:
@@ -12,10 +12,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/openlineage_python-${{ version }}.tar.gz
-  sha256: 04ed2b223eb9e50c0f852ec2d43b5b0992f34ff3bb3d197a0765a46ccf73cb7f
+  sha256: 1583e63a24491b29d34aabce27ebc0590274097b1c7a21ddd6ca1ea174a2cde4
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
