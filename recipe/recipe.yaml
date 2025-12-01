@@ -11,7 +11,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/OpenLineage/OpenLineage/archive/refs/tags/{{ version }}.tar.gz
+  url: https://github.com/OpenLineage/OpenLineage/archive/refs/tags/${{ version }}.tar.gz
   sha256: 0e13c85d0cf24ceed4bf1042562edacb66520dda6c710c5a073a2dd8386276e2
 
 build:
