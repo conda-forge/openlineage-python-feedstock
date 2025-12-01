@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@millsks](https://github.com/millsks/)
 * [@rxm7706](https://github.com/rxm7706/)
+* [@xylar](https://github.com/xylar/)
 
