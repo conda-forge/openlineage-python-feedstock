@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: openlineage-python
-  version: "1.47.1"
+  version: "1.48.0"
   python_min: '3.10'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://github.com/OpenLineage/OpenLineage/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 80d10cad384caf1837a4fd4a570b1a4681b1a1b2e990b0b8036c94d3094ab10b
+  sha256: 87b7d54db3d1e00210ee3be06cc7f2b47e8ccf7c9b9c543f82690ce18892b008
 
 build:
   number: 0
