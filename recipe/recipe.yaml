@@ -27,15 +27,15 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - uv-build >=0.9.4,<0.10.0
     - pip
+    - uv-build >=0.9.4,<0.13.0
   run:
     - python >=${{ python_min }},<4.0
     - attrs >=20.0
     - python-dateutil >=2.8.2
     - pyyaml >=5.4
     - requests >=2.32.4
-    - httpx >=0.27.0
+    - httpx2 >=2.12.0
     - packaging >=21.0
     - python-build >=1.2.2
 
