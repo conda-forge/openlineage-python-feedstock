@@ -37,7 +37,6 @@ requirements:
     - requests >=2.32.4
     - httpx2 >=2.12.0
     - packaging >=21.0
-    - python-build >=1.2.2
 
 tests:
   - python:
