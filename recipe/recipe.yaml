@@ -4,7 +4,6 @@ schema_version: 1
 context:
   name: openlineage-python
   version: "1.54.0"
-  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -15,7 +14,7 @@ source:
   sha256: 6a619be5a094f126de1da83419020cb757029c669d9384bac407018d4e3f7101
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script:
     - cd client/python
@@ -43,7 +42,9 @@ tests:
       imports:
         - openlineage.client
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - requirements:
       run:
         - pip
